@@ -26,6 +26,7 @@
     "express": "^4.17.1",
     "express-edge": "^2.0.2",
     "firebase": "^8.4.2",
+    "firebase-admin": "^9.6.0",
     "helmet": "^4.5.0",
     "morgan": "^1.10.0",
     "winston": "^3.3.3"

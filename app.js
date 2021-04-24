@@ -54,6 +54,7 @@ const indexRouter = require('./routes/home')
 const adminRouter = require('./routes/admin')
 app.use('/', indexRouter)
 app.use('/admin', adminRouter)
+app.use('/admin/user', adminRouter)
 
 // rota response 404
 app.use(function(req, res) {
