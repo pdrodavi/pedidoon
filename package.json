@@ -1,0 +1,31 @@
+{
+  "name": "pedidoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrodavi/pedidoon.git"
+  },
+  "author": "Pedro Davi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdrodavi/pedidoon/issues"
+  },
+  "homepage": "https://github.com/pdrodavi/pedidoon#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.2",
+    "firebase": "^8.4.2",
+    "helmet": "^4.5.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
