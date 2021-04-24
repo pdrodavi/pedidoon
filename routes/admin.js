@@ -17,7 +17,7 @@ let firebaseConfig = {
 };
 
 router.get('/', function(req, res, next) {
-  res.render('logon', { title: 'Logon', error: '' });
+  res.render('logon', { title: 'Logon iPedidoon', error: '' });
 });
 
 router.post('/', function(req, res, next) {
